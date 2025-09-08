@@ -9,4 +9,7 @@ Classifies news headlines into four categories: **World**, **Sports**, **Busines
 - Visualizations: confusion matrix, t-SNE .
 - Quick scripts for training, prediction and visualization.
 
-## Repo structure
+### Dataset
+We use the [AG News dataset](https://huggingface.co/datasets/ag_news) via HuggingFace Datasets library.
+It is downloaded automatically when you run `train.py`.
+
